@@ -39,6 +39,10 @@ image:
   # If supplied, this overrides "appVersion"
   tag: ""
 
+# Deployment type.  Set to "deployment" to use a Deployment, or "daemonset" to use a DaemonSet.
+deploymentType: deployment
+
+# Replica count is used only when deploying the tunnel as a Deployment.
 replicaCount: 2
 
 imagePullSecrets: []
