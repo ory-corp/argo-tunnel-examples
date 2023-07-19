@@ -25,7 +25,7 @@ cloudflare:
     # in the connection from cloudflared to your local service, not from the internet to cloudflared.
     # - hostname: hello.example.com
     #   service: hello_world
-  protocol: http2
+  protocol: auto
 
 secret:
   # -- switch to false to prevent creating the secret
